@@ -10,7 +10,7 @@ export default class App extends Component {
     return (
       <ErrorBoundary>
         <NavBar />
-        <News />
+        <News pageSize={20} />
       </ErrorBoundary>
     );
   }
